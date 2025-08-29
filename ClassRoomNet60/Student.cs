@@ -18,5 +18,10 @@ namespace ClassRoomNet60
             BirthMonth = birthMonth;
             BirthDay = birthDay;
         }
+
+        public override string ToString()
+        {
+            return $"{Name}, {BirthDay}/{BirthMonth}";
+        }
     }
 }
